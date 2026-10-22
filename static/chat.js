@@ -28,7 +28,7 @@ function onConnectionEstablished() {
     statusElement.innerText = 'Conexão: estabelecida'
 }
 
-const messagesContainer = document.getElementById('chat')
+const messagesContainer = document.getElementById('messages')
 
 function onReceiveMessage(event) {
     const data = JSON.parse(event.data)
