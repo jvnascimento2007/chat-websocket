@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat WebSocket</title>
+</head>
+<body>
+    <div id="chat">
+        <ul>
+            <li id="status">Conexão: desconectado</li>
+        </ul>
+        <div id="messages">
+        </div>
+        <div id="messaging">
+            <input type="text" name="messageInput" id="messageInput">
+            <button id="sendButton">Enviar</button>
+        </div>
+    </div>
+    <div id="connection">
+        <label for="nameInput">Nome:</label>
+        <input type="text" name="nameInput" id="nameInput">
+        <br>
+        <label for="roomInput">Sala:</label>
+        <input type="text" name="roomInput" id="roomInput">
+        <br>
+        <button id="connectButton">Conectar</button>
+    </div>
+    <script type="module" src="static/chat.js"></script>
+</body>
+</html>
